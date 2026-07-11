@@ -11,6 +11,7 @@ O foco principal do projeto foi usar padrões de mercado, separando as responsab
 - Banco H2 (em memória)
 - Lombok
 - Bean Validation (validação de e-mail, campos obrigatórios, etc.)
+- Tratamento de Erros Global: Uso de `@RestControllerAdvice` e `@ExceptionHandler` para capturar exceções da aplicação e devolver JSONs padronizados com os status HTTP corretos.
 
 ## 🛠️ O que foi aplicado (Padrão Mercado)
 - **Camadas bem definidas:** Controller, Service, Repository e Model.
